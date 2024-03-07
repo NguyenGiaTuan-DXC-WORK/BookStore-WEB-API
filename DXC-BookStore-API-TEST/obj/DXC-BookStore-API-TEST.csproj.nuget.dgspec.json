@@ -1,0 +1,429 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-API-TEST\\DXC-BookStore-API-TEST.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-API-TEST\\DXC-BookStore-API-TEST.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-API-TEST\\DXC-BookStore-API-TEST.csproj",
+        "projectName": "DXC-BookStore-API-TEST",
+        "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-API-TEST\\DXC-BookStore-API-TEST.csproj",
+        "packagesPath": "C:\\Users\\tnguyen758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-API-TEST\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tnguyen758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-WEB-API\\DXC-BookStore-WEB-API.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-WEB-API\\DXC-BookStore-WEB-API.csproj"
+              },
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\DXCBookStore.BLL.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\DXCBookStore.BLL.csproj"
+              },
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.6.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.20.70, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-WEB-API\\DXC-BookStore-WEB-API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-WEB-API\\DXC-BookStore-WEB-API.csproj",
+        "projectName": "DXC-BookStore-WEB-API",
+        "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-WEB-API\\DXC-BookStore-WEB-API.csproj",
+        "packagesPath": "C:\\Users\\tnguyen758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXC-BookStore-WEB-API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tnguyen758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\DXCBookStore.BLL.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\DXCBookStore.BLL.csproj"
+              },
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj"
+              },
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\DXCBookStore.DAL.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\DXCBookStore.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Filters": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\DXCBookStore.BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\DXCBookStore.BLL.csproj",
+        "projectName": "DXCBookStore.BLL",
+        "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\DXCBookStore.BLL.csproj",
+        "packagesPath": "C:\\Users\\tnguyen758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tnguyen758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj"
+              },
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\DXCBookStore.DAL.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\DXCBookStore.DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.1.34, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj",
+        "projectName": "DXCBookStore.COMMON",
+        "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj",
+        "packagesPath": "C:\\Users\\tnguyen758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tnguyen758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\DXCBookStore.DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\DXCBookStore.DAL.csproj",
+        "projectName": "DXCBookStore.DAL",
+        "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\DXCBookStore.DAL.csproj",
+        "packagesPath": "C:\\Users\\tnguyen758\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tnguyen758\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj": {
+                "projectPath": "C:\\Users\\tnguyen758\\OneDrive - DXC Production\\Desktop\\INTERN\\Report\\BookStoreV1\\BookStoreMVC\\DXCBookStore.COMMON\\DXCBookStore.COMMON.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

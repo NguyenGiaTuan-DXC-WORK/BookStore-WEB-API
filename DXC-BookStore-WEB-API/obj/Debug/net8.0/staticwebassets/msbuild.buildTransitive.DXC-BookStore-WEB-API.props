@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\DXC-BookStore-WEB-API.props" />
+</Project>

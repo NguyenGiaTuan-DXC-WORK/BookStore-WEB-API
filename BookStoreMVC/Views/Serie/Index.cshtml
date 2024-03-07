@@ -1,0 +1,42 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3><b>Series of Books</b></h3>
+<p><i>* Book is a key to unlocking the boundless potential within your mind and heart</i></p>
+<table class="table table-bordered">
+    <thead>
+        <th>Title</th>
+        <th>Start year</th>
+        <th>End year</th>
+        <th>Created Date</th>
+        <th>Updated Date</th>
+    </thead>
+    <tbody>
+        @if(ViewBag.series !=null)
+        {
+            @foreach(var serie in ViewBag.series)
+            {
+                <tr>
+                    <td>@serie.SerieName</td>
+                    <td>@serie.StartYear</td>
+                    <td>@serie.EndYear</td>
+                    <td>@serie.CreatedDate.ToString("MM/dd/yyyy")</td>
+                    <td>
+                        @if(serie.UpdatedDate !=null)
+                        {
+                            @serie.UpdatedDate
+                        }
+                        else
+                        {
+                            <b>Unknown</b>
+                        }
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <p>Empty serie</p>
+        }
+    </tbody>
+</table>
