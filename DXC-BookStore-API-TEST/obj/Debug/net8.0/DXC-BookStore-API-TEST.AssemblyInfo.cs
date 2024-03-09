@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DXC-BookStore-API-TEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de3760c9572dc393a8b9f2c90a0f60beaa6433a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("DXC-BookStore-API-TEST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DXC-BookStore-API-TEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

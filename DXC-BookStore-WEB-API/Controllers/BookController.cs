@@ -57,5 +57,16 @@ namespace DXC_BookStore_WEB_API.Controllers
             var books = await _bookManagement.GetAllFilteredBooks(filter);
             return Ok(books.ToListBookResponseModel());
         }
+
+        [HttpPost("CreateBook")]
+        public async Task<IActionResult> CreateBook([FromForm] BookRequestModel bookRequestModel)
+        {
+            var result = await _bookManagement.CreateBook(bookRequestModel, bookRequestModel.Images, bookRequestModel.PublisherId);
+            if(result)
+            {
+                return Ok(new { message = "success" });
+            }
+            return BadRequest(new {message= "fail"});
+        }
     }
 }

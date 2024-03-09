@@ -7,10 +7,11 @@ namespace DXCBookStore.COMMON.Entities
         public string ImageName { get; set; }
         [JsonIgnore]
         public int? IdBook { get; set; }
+        [JsonIgnore]
         public int? IdSerie { get; set; }
         [JsonIgnore]
-        public virtual Book Book { get; set; }
+        public virtual Book? Book { get; set; }
         [JsonIgnore]
-        public virtual Serie Serie { get; set; }
+        public virtual Serie? Serie { get; set; }
     }
 }

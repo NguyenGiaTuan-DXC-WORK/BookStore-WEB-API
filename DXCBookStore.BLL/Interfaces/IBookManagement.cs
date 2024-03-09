@@ -18,7 +18,7 @@ namespace DXCBookStore.BLL.Interfaces
 
         public Task<Book> GetBookById(int id);
 
-        public Task<bool> CreateBook(Book book, IFormFile[] photos, int publisherId);
+        public Task<bool> CreateBook(BookRequestModel book, IFormFile[] photos, int publisherId);
 
         public Task<bool> UpdateBook(Book book);
 

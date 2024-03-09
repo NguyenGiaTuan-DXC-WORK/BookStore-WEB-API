@@ -1,4 +1,5 @@
 ﻿using DXCBookStore.BLL.Interfaces;
+using DXCBookStore.BLL.Mapper;
 using DXCBookStore.COMMON.Entities;
 using DXCBookStore.COMMON.Filters;
 using DXCBookStore.COMMON.Helpers;
@@ -25,14 +26,18 @@ namespace DXCBookStore.BLL.Business
             _db = db;
         }
 
-        public async Task<bool> CreateBook(Book book, IFormFile[] photos, int publisherId)
+        public async Task<bool> CreateBook(BookRequestModel bookRequestModel, IFormFile[] photos, int publisherId)
         {
-            if(book != null)
+            var book = bookRequestModel.ToBookModel();
+            if(bookRequestModel != null)
             {
+                book.DeletedDate = null;
+                book.PublishedDate = DateTime.Now;
                 book.PublisherId = publisherId;
                 book.CreatedDate = DateTime.Now;
+                book.UpdatedDate = null;
                 // Check if book in serie
-                if(book.SerieId == 0)
+                if(bookRequestModel.SerieId == 0)
                 {
                     book.SerieId = null;
                 }
@@ -79,7 +84,7 @@ namespace DXCBookStore.BLL.Business
                 .Include(y => y.Publisher)
                 .Include(x => x.Category)
                 .Include(z => z.Serie)
-                .Where(p => p.DeletedDate == null && p.Category.IsDeleted == false).ToListAsync();
+                .Where(p => p.DeletedDate == null && p.Category.IsDeleted == false).OrderByDescending(p => p.Id).ToListAsync();
             return books;
         }
 

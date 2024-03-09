@@ -9,6 +9,21 @@ namespace DXCBookStore.BLL.Mapper
     public static class MapperExtension
     {
         // To Model
+
+        public static Book ToBookModel(this BookRequestModel bookRequestModel)
+        {
+            var book = new Book();
+            book.Author = bookRequestModel.Author;
+            book.Title = bookRequestModel.Title;
+            book.Description = bookRequestModel.Description;
+            book.CategoryId = bookRequestModel.CategoryId;
+            book.Price = bookRequestModel.Price;
+            book.Quantity = bookRequestModel.Quantity;
+            book.TotalPage = bookRequestModel.TotalPage;
+
+            return book;
+        }
+
         public static Publisher ToPublisherModel(this PublisherRequestModel publisherRequestModel) 
         {
             var publisher = new Publisher();    

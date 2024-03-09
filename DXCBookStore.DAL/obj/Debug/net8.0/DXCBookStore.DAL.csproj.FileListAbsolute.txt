@@ -15,3 +15,4 @@ C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXCBookStore.DAL\obj\Debug\net8.0\DXCBookStore.DAL.pdb
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXCBookStore.DAL\obj\Debug\net8.0\DXCBookStore.DAL.genruntimeconfig.cache
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXCBookStore.DAL\obj\Debug\net8.0\ref\DXCBookStore.DAL.dll
+C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXCBookStore.DAL\obj\Debug\net8.0\DXCBookStore.DAL.sourcelink.json

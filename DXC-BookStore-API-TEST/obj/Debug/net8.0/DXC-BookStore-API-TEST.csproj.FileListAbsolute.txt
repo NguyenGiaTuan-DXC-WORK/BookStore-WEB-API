@@ -135,9 +135,6 @@ C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
@@ -162,3 +159,5 @@ C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\DXC-BookStore-WEB-API.dll
 C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\DXC-BookStore-WEB-API.pdb
+C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\bin\Debug\net8.0\runtimes\win\lib\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tnguyen758\OneDrive - DXC Production\Desktop\INTERN\Report\BookStoreV1\BookStoreMVC\DXC-BookStore-API-TEST\obj\Debug\net8.0\DXC-BookStore-API-TEST.sourcelink.json
